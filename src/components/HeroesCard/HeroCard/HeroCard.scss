@@ -1,0 +1,68 @@
+.card {
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 120px;
+    height: 170px;
+    transform: skewX(-10deg);
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    transition: border 0.3s ease, transform 0.1s ease;
+  }
+  
+//   .hero-image {
+//     width: 100%;
+//     height: 70%;
+//     object-fit: cover;
+//     border-right: 5px solid #444;
+//   }
+  .hero-image {
+    // width: 100%;
+    // height: 70%;
+    width: 100%;
+    background-repeat: repeat;
+    height: 100%;
+    background-size: 365%;
+    transform: scale(1.4);
+    background-position: center top -15px;
+    transform: skewX(10deg) scale(1.2);
+    z-index: 0;
+  }
+  
+  .card-content {
+    // padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+  }
+  
+  .hero-name {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    font-family: 'Kenyan Coffee', sans-serif;
+    font-size: 20px;
+    color: #242424;
+  }
+  
+  .hero-description {
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    background-color: orange;
+  }
+  
+.card:hover {
+    border: 3px solid gold;
+    transform: scale(1.1) skewX(-10deg);
+}
