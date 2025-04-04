@@ -1,0 +1,39 @@
+.heroes-page {
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    background-image: url("public/backgrounds/ow-background1.avif");
+    background-size: cover;
+    overflow: hidden;
+
+    h1 {
+        height: fit-content;
+    }
+
+    button {
+        background-color: #218FFE;
+        padding: 8px 15px;
+        color: white;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+.blue {
+    font-family: 'Kenyan Coffee', sans-serif;
+    color: white;
+    font-size: 100px;
+    background: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-card-container {
+    margin-left: 50px;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
