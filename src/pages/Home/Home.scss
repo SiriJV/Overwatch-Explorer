@@ -1,0 +1,56 @@
+// nav {
+//     background-color: #222;  /* Dark background */
+//     display: flex;
+//     gap: 20px;
+//   }
+  
+//   nav a {
+//     color: white;
+//     text-decoration: none;
+//     font-size: 18px;
+//     padding: 8px 12px;
+//     transition: color 0.3s ease;
+//   }
+
+.home-page {
+  background-image: url("public/backgrounds/ow-background2.avif");
+}
+  
+.nav-link {
+  text-decoration: none;
+  height: fit-content;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.chat-input {
+  background-color: rgba(61, 61, 61, 0.4);
+  border-radius: 3px;
+  padding: 8px 15px;
+  font-weight: bold;
+  color: rgba(220, 220, 220, 0.4);
+  border: 2px solid rgba(220, 220, 220, 0.4);
+}
+
+.chat-display {
+  font-weight: bold;
+  
+  p {
+    margin: 0;
+    margin-bottom: 0;
+  }
+}
